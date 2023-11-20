@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Playpen+Sans&family=Quicksand:wght@400;500&family=Varela+Round&display=swap');
+
+.tabs {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+.tabs button {
+  background-color: inherit;
+  cursor: pointer;
+  transition: 0.3s;
+  outline: none;
+  border: none;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1.5rem;
+}
+
+.tabs button:hover {
+  background-color: #ddd;
+}
+
+.tabs button.active {
+  background-color: bisque;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
