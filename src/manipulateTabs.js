@@ -16,3 +16,7 @@ export default function openTab(e, tabName) {
   document.getElementById(tabName).style.display = 'block';
   e.currentTarget.className += ' active';
 }
+
+window.addEventListener('load', () => {
+  document.querySelector('.tabcontent').style.display = 'block';
+});

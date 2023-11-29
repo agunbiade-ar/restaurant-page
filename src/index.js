@@ -11,3 +11,10 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 });
+
+function createHomePage() {
+  // document.querySelector('#home p').textContent =
+  //   ;
+}
+
+createHomePage();
